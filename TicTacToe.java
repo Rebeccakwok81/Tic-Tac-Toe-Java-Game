@@ -46,6 +46,7 @@ public class TicTacToe{
         int cpuPos = random.nextInt(9) + 1;
         while(playerPostions.contains(cpuPos) || cpuPostions.contains(cpuPos)){
             cpuPos = random.nextInt(9) + 1;
+            
         }
         placePiece(gameBoard, cpuPos, "cpu");
  
